@@ -41,7 +41,7 @@ COLLECTION_NAME = 'multilingual_documents'
 
 # RAG configuration
 TOP_K_RESULTS = int(os.getenv('TOP_K_RESULTS', 5))
-SIMILARITY_THRESHOLD = float(os.getenv('SIMILARITY_THRESHOLD', 0.7))
+SIMILARITY_THRESHOLD = float(os.getenv('SIMILARITY_THRESHOLD', 0.3))
 
 # Translation configuration
 DEFAULT_SOURCE_LANGUAGE = os.getenv('DEFAULT_SOURCE_LANGUAGE', 'en')
