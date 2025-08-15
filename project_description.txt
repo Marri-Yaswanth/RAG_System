@@ -1,0 +1,63 @@
+Here are the **key technologies** used in this Multi-Language RAG System project:
+
+## 🧠 **Core AI/ML Technologies**
+- **Sentence Transformers**: Multi-language embedding model (`paraphrase-multilingual-MiniLM-L12-v2`)
+- **FAISS**: High-performance similarity search and clustering for vector operations
+- **ChromaDB**: Vector database for storing and retrieving document embeddings
+- **Hugging Face Transformers**: State-of-the-art NLP models and tokenizers
+
+## �� **Natural Language Processing**
+- **Multi-language Support**: 12 languages (English, Spanish, French, German, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, Hindi, Russian)
+- **Language Detection**: Automatic identification of document and query languages
+- **Cross-lingual Embeddings**: Semantic search across different languages
+- **Healthcare Domain Specialization**: Medical terminology preservation
+
+## 💻 **Backend & Framework**
+- **Python 3.13**: Modern Python with advanced features
+- **Streamlit**: Beautiful web application framework for data science
+- **FastAPI**: High-performance API framework (for potential REST endpoints)
+- **Uvicorn**: ASGI server for FastAPI applications
+
+## ��️ **Data Processing & Storage**
+- **Document Processing**: Support for TXT, MD, PDF, DOCX, CSV, JSON, XML
+- **Vector Database**: ChromaDB with FAISS backend for similarity search
+- **Chunking Strategies**: Language-specific text segmentation
+- **Metadata Management**: Comprehensive document information tracking
+
+## 🔧 **Development & Deployment**
+- **Virtual Environment**: Python venv for dependency isolation
+- **Pip**: Package management and dependency resolution
+- **Git**: Version control and project management
+- **Automated Deployment**: One-command setup script
+
+## 🚀 **Performance & Optimization**
+- **MPS (Metal Performance Shaders)**: Apple Silicon GPU acceleration
+- **Batch Processing**: Efficient handling of multiple documents
+- **Caching**: TTL-based caching for improved response times
+- **Rate Limiting**: API protection and resource management
+
+## 🌍 **Translation & Localization**
+- **Google Translate API**: Professional-grade translation service
+- **Cultural Context Preservation**: Healthcare terminology accuracy
+- **Language Families**: Intelligent translation routing
+- **Multi-script Support**: Handling different writing systems
+
+## 📊 **Evaluation & Testing**
+- **RAGAS-like Metrics**: Answer relevancy, context relevancy, faithfulness
+- **Performance Benchmarking**: Response time and accuracy measurements
+- **Cross-language Testing**: Comprehensive system validation
+- **Automated Evaluation**: Batch testing and performance analysis
+
+## 🏥 **Domain Specialization**
+- **Healthcare Focus**: Medical document processing and terminology
+- **Cultural Sensitivity**: Preserving cultural nuances in translations
+- **Sample Documents**: Pre-loaded healthcare guidelines in multiple languages
+- **Medical Term Optimization**: Specialized chunking and retrieval
+
+## 🔒 **Security & Compliance**
+- **Local Processing**: No external API calls by default
+- **Configurable Security**: Optional API keys for enhanced services
+- **Privacy-Focused**: Local data storage and processing
+- **Healthcare Standards**: Best practices for medical data handling
+
+This is a **cutting-edge, production-ready system** that combines the latest AI/ML technologies with practical healthcare applications! 🎯🚀
